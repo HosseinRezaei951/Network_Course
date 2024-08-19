@@ -1,6 +1,6 @@
 # webChat-collection
 
-![alt text](https://github.com/HosseinRezaei951/Network3_WebChat/blob/master/chat.PNG)
+![alt text](https://github.com/HosseinRezaei951/Network_Course/Projects/WebChat_Collection/chat.PNG)
 
  
 
@@ -26,7 +26,7 @@ request to localhost:8080, e.g., simply open browser and go to http://localhost:
 
 ( Do not open html files directly)
 
-![alt text](https://github.com/HosseinRezaei951/Network3_WebChat/blob/master/address.PNG)
+![alt text](https://github.com/HosseinRezaei951/Network_Course/Projects/WebChat_Collection/address.PNG)
 
   
 ## Topology:
@@ -94,7 +94,7 @@ Like that :
 var ws = new WebSocket('ws://192.168.137.1:5001');
 ```
 
-![alt text](https://github.com/HosseinRezaei951/Network3_WebChat/blob/master/cmd.PNG)
+![alt text](https://github.com/HosseinRezaei951/Network_Course/Projects/WebChat_Collection/cmd.PNG)
 
 Finally, after connecting to hotspot network with any devices and open page "ourID:8080" like `192.168.40.185:8080` we can chat together in other devices.
 
