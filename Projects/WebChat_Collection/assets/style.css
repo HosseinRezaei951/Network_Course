@@ -1,0 +1,110 @@
+body {
+    background-color: #181533;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='250' height='250' viewBox='0 0 20 20'%3E%3Cg %3E%3Cpolygon fill='%230f2944' points='20 10 10 0 0 0 20 20'/%3E%3Cpolygon fill='%230f2944' points='0 10 0 20 10 20'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+#progressbar {
+    background-color: aquamarine;
+    height: 30px;
+    width: 0%;
+}
+
+#message {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    font-size: 19px;
+    padding: 20px;
+    width: 50%;
+    min-height: 40px;
+    background-color: white;
+    border: solid lightblue 4px;
+    border-radius: 10px;
+    margin: 6 auto;
+}
+
+input {
+    height: 42px;
+    width: 45%;
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid lightblue 4px;
+    padding-left: 10px;
+}
+
+button {
+    width: 100px;
+    height: 44px;
+    font-size: 19px;
+    background-color: cornflowerblue;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: solid lightblue 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(34, 72, 143);
+}
+
+#header {
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: rgb(34, 72, 143);
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    padding-top: 13px;
+    color: whitesmoke;
+    top: 0;
+}
+
+#id_name {
+    font: bold;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#message_data {
+    padding-top: 10px;
+}
+
+.message_box {
+    position: fixed;
+    bottom: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+#messages {
+    overflow: scroll;
+    height: 80%;
+    overflow: -moz-scrollbars-none;
+    overflow-y: scroll;
+    margin-top: 70px;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* remove scrollbar space */
+    background: transparent;
+    /* optional: just make scrollbar invisible */
+}
+
+/* optional: show position indicator in red */
+
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+html {
+    overflow: -moz-scrollbars-none;
+    overflow-y: scroll;
+}
